@@ -4,9 +4,7 @@
 #include "pch.h"
 #include "framework.h"
 #include "Server.h"
-#include "iostream"
-#include "stdio.h"
-#include "string"
+#include "tchar.h"
 #include "afxsock.h"
 
 #ifdef _DEBUG
