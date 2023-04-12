@@ -47,7 +47,7 @@ int main()
             CSocket server;
 
             //Khởi tạo Socket với port 3153
-            server.Create(3153);
+            server.Create(8888);
 
             //Lắng nghe kết nối từ Client
             server.Listen();
@@ -61,7 +61,7 @@ int main()
             }
 
             char message[100];
-            int len = 0;
+            int len = '\0';
 
             //Bắt đầu gửi tin nhắn
             while (true)
